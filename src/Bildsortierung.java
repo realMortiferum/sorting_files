@@ -3,6 +3,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * 
+ * @author ala
+ * @version 0.1
+ */
+
 public class Bildsortierung {
 
 	public String pfad;
@@ -18,14 +24,30 @@ public class Bildsortierung {
 	@SuppressWarnings("resource")
 	public static void main(String[] args) throws IOException {
 
+		/**
+		 * Input des Pfades, in welchem die sich zu sortierenden Dateien befinden
+		 * 
+		 * @author Anton
+		 */
 		Scanner reader = new Scanner(System.in);
 		System.out.println("Pfad der zu kopierenden Datein?");
 		String pfad = reader.nextLine();
 
+		/**
+		 * Input des Pfades, in welchem die sortierten Dateien gespeichert werden sollen
+		 * 
+		 * @author Anton
+		 */
 		Scanner reader2 = new Scanner(System.in);
 		System.out.println("BasisPfad in den kopiert werden soll?");
 		basicPath = reader2.nextLine();
 		
+		/**
+		 * Aufruf von Suche.java
+		 * 
+		 * @see Suche.java
+		 * @author Anton
+		 */
 		Suche search = new Suche();
 		search.listfiles(pfad);
 
@@ -76,6 +98,7 @@ public class Bildsortierung {
 
 	}
 
+	
 	public List<String> getBilder() {
 		return bilder;
 	}
