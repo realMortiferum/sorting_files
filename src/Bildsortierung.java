@@ -3,8 +3,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+
 /**
- * 
+ * Haupklasse
  * @author ala
  * @version 0.1
  */
