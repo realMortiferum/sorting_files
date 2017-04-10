@@ -7,7 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 /**
  * Übernahme der zu Kopierenden Dateiverzeichnisse (bilder)
+ * <p>
  * Auslesen des letzten Änderungsdatums (in den meisten Fällen das Aufnahmedatum für Bilder)
+ * <p>
  * Erstellen einer Liste (bilderdatum), in denen das Datum zur jeweiligen Datei korrespondiert
  * 
  * @author ala

@@ -11,8 +11,11 @@ import org.apache.commons.io.FilenameUtils;
 
 /**
  * Übernahme des Ursprungspfades (pfad)
+ * <p>
  * Suche nach unterschiedlichen Dateitypen sowie deren Häufigkeit
+ * <p>
  * Übernahme der Endungenliste (endungen)
+ * <p>
  * Erstellung einer Liste mit allen Pfadverzeichnissen der gewünschten Dateien (bilder)
  * 
  * @author ala
