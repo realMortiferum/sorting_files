@@ -6,6 +6,7 @@ import java.util.Scanner;
 
 /**
  * Haupklasse, welche Input annimmt und an die anderen Klassen weitergibt
+ * <p>
  * @author ala
  * @version 0.1
  */
@@ -20,45 +21,30 @@ public class Bildsortierung {
 	static int a;
 	static int e;
 	static String basicPath;
+	/**
+	 * Definition des Ordnersystems, welche an 
+	 * @see Kopieren.java
+	 * übergeben wird
+	 */
 	static String Ordnersys;
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) throws IOException {
 
-		/**
-		 * Input des Pfades, in welchem die sich zu sortierenden Dateien befinden
-		 * 
-		 * @author Anton
-		 */
 		Scanner reader = new Scanner(System.in);
 		System.out.println("Pfad der zu kopierenden Datein?");
 		String pfad = reader.nextLine();
 
-		/**
-		 * Input des Pfades, in welchem die sortierten Dateien gespeichert werden sollen
-		 * 
-		 * @author Anton
-		 */
 		Scanner reader2 = new Scanner(System.in);
 		System.out.println("BasisPfad in den kopiert werden soll?");
 		basicPath = reader2.nextLine();
 		
-		/**
-		 * Aufruf von Suche.java
-		 * 
-		 * @see Suche.java
-		 * @author Anton
-		 */
-		Suche search = new Suche();
-		search.listfiles(pfad);
-
-		//Scanner reader2 = new Scanner(System.in);
-		//System.out.println("BasisPfad in den kopiert werden soll?");
-		//basicPath = reader2.nextLine();
-
 		Scanner reader3 = new Scanner(System.in);
 		System.out.println("Odnersystem 1.y/m/d/ oder 2. ymd/ ? type 1 or 2!");
 		Ordnersys = reader3.nextLine();
+		
+		Suche search = new Suche();
+		search.listfiles(pfad);
 
 		while (Integer.parseInt(Ordnersys) != 1
 				&& Integer.parseInt(Ordnersys) != 2) {

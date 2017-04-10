@@ -11,7 +11,7 @@ import java.util.List;
  * Auslesen des letzten Änderungsdatums (in den meisten Fällen das Aufnahmedatum für Bilder)
  * <p>
  * Erstellen einer Liste (bilderdatum), in denen das Datum zur jeweiligen Datei korrespondiert
- * 
+ * <p>
  * @author ala
  * @version 0.1
  */

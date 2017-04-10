@@ -17,7 +17,7 @@ import org.apache.commons.io.FilenameUtils;
  * Übernahme der Endungenliste (endungen)
  * <p>
  * Erstellung einer Liste mit allen Pfadverzeichnissen der gewünschten Dateien (bilder)
- * 
+ * <p>
  * @author ala
  * @version 0.1
  */

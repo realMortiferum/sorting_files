@@ -9,8 +9,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Klasse, welche die Listen Bilder und Bilderdatum übernimmt und die Dateien in ein Ordnerverzeichnis kopieren
- * (auch übernommen wird die Variable ordnersys, durch welche die Ordnerstruktur des Kopierverzeichnisses def. wird
+ * Übernahme der Listen Bilder und Bilderdatum 
+ * <p> 
+ * Dateien in ein Ordnerverzeichnis(def durch ordnersys) kopieren
+ * <p>
  * @author ala
  * @version 0.1
  */
