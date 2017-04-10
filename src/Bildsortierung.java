@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 
 /**
- * Haupklasse
+ * Haupklasse, welche Input annimmt und an die anderen Klassen weitergibt
  * @author ala
  * @version 0.1
  */

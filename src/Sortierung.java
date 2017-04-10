@@ -5,7 +5,14 @@ import java.nio.file.Paths;
 import java.nio.file.attribute.BasicFileAttributes;
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * Übernahme der zu Kopierenden Dateiverzeichnisse (bilder)
+ * Auslesen des letzten Änderungsdatums (in den meisten Fällen das Aufnahmedatum für Bilder)
+ * Erstellen einer Liste (bilderdatum), in denen das Datum zur jeweiligen Datei korrespondiert
+ * 
+ * @author ala
+ * @version 0.1
+ */
 public class Sortierung {
 	List<String> bilder = new ArrayList<String>();
 	List<String> bilderdatum = new ArrayList<String>();

@@ -7,8 +7,17 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
-
 import org.apache.commons.io.FilenameUtils;
+
+/**
+ * Übernahme des Ursprungspfades (pfad)
+ * Suche nach unterschiedlichen Dateitypen sowie deren Häufigkeit
+ * Übernahme der Endungenliste (endungen)
+ * Erstellung einer Liste mit allen Pfadverzeichnissen der gewünschten Dateien (bilder)
+ * 
+ * @author ala
+ * @version 0.1
+ */
 
 public class Suche {
 
